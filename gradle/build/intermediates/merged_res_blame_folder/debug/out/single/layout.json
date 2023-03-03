@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_forgotpassword.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_forgotpassword.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_shipping.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_shipping.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_account.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_account.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_menu.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_dashboard.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_order.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_order.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-mergeDebugResources-32:/layout/activity_registration.xml",
+        "source": "com.example.pynt.app-main-35:/layout/activity_registration.xml"
+    }
+]

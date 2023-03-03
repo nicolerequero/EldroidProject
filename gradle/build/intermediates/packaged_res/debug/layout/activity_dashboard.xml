@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timage"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Discover"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Products"
+                    />
+
+            </LinearLayout>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="100dp"
+                android:layout_marginEnd="20dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_baseline_person_24"
+                    app:tint="@color/black"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/mainmenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_baseline_menu_24"
+                        android:padding="5dp"
+                        app:tint="@color/black"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search for products"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_baseline_search_24"
+                        android:layout_marginEnd="10dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Jerseys"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="T-Shirts"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Tarpaulins"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey1"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView2"
+                            app:layout_constraintStart_toStartOf="@+id/cardView2"
+                            app:layout_constraintTop_toTopOf="@+id/cardView2"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/red"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey2"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView21"
+                            app:layout_constraintStart_toStartOf="@+id/cardView21"
+                            app:layout_constraintTop_toTopOf="@+id/cardView21"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView21"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView21"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey3"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView22"
+                            app:layout_constraintStart_toStartOf="@+id/cardView22"
+                            app:layout_constraintTop_toTopOf="@+id/cardView22"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView22"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey4"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView23"
+                            app:layout_constraintStart_toStartOf="@+id/cardView23"
+                            app:layout_constraintTop_toTopOf="@+id/cardView23"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView23"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView23"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/red"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey5"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView24"
+                            app:layout_constraintStart_toStartOf="@+id/cardView24"
+                            app:layout_constraintTop_toTopOf="@+id/cardView24"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView24"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView24"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey2"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView25"
+                            app:layout_constraintStart_toStartOf="@+id/cardView25"
+                            app:layout_constraintTop_toTopOf="@+id/cardView25"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView25"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView25"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/red"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jerysey7"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView26"
+                            app:layout_constraintStart_toStartOf="@+id/cardView26"
+                            app:layout_constraintTop_toTopOf="@+id/cardView26"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView26"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView26"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey8"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView27"
+                            app:layout_constraintStart_toStartOf="@+id/cardView27"
+                            app:layout_constraintTop_toTopOf="@+id/cardView27"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView27"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView27"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/red"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey9"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView28"
+                            app:layout_constraintStart_toStartOf="@+id/cardView28"
+                            app:layout_constraintTop_toTopOf="@+id/cardView28"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView28"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView28"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/jersey10"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView29"
+                            app:layout_constraintStart_toStartOf="@+id/cardView29"
+                            app:layout_constraintTop_toTopOf="@+id/cardView29"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView29"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView29"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/red"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/tshirt1"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView30"
+                            app:layout_constraintStart_toStartOf="@+id/cardView30"
+                            app:layout_constraintTop_toTopOf="@+id/cardView30"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView30"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView30"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/yellow"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:elevation="20dp"
+                            android:src="@drawable/tshirt2"
+                            app:layout_constraintEnd_toEndOf="@+id/cardView31"
+                            app:layout_constraintStart_toStartOf="@+id/cardView31"
+                            app:layout_constraintTop_toTopOf="@+id/cardView31"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView31"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView31"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="50dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    app:cardElevation="0dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:background="@color/white"
+                                        android:textColor="@color/black"
+                                        android:text="₱120.00"/>
+
+
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="10dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/ic_baseline_star_outline_24"
+                                        app:tint="@color/black"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/black"
+                                        android:text="4.6"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_weight="1"/>
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fade_gray"
+                                        android:src="@drawable/ic_baseline_favorite_24"
+                                        android:padding="5dp"
+                                        app:tint="@color/black"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottombar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:gravity="bottom"
+                tools:ignore="MissingConstraints">
+
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    app:menu="@menu/bottombar_menu" />
+
+            </com.google.android.material.bottomappbar.BottomAppBar>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

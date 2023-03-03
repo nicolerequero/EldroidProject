@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_tshirt3.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/tshirt3.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_facebook.png.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_phone_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_forgotpassword.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_forgotpassword.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey2.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey2.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_account.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_account.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey9.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey9.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_info_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_simage.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/simage.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey6.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey6.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_outline_account_circle_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_outline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_google.png.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_tshirt4.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/tshirt4.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_timage.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/timage.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_outline_shopping_bag_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_outline_shopping_bag_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_outline_home_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_outline_home_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jerysey7.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jerysey7.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_registration.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey5.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey5.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_shipping.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_shipping.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/menu_bottombar_menu.xml.flat",
+        "source": "com.example.pynt.app-main-35:/menu/bottombar_menu.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_star_outline_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_star_outline_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey4.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey4.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.pynt.app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_search_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey8.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey8.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_fimage.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/fimage.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey1.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey1.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_tshirt1.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/tshirt1.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.pynt.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey10.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey10.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_jersey3.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/jersey3.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_tshirt2.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/tshirt2.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_menu.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_outline_local_shipping_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_outline_local_shipping_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.pynt.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pynt.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/layout_activity_order.xml.flat",
+        "source": "com.example.pynt.app-main-35:/layout/activity_order.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_outline_shopping_cart_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_outline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_tshirt5.jpg.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/tshirt5.jpg"
+    },
+    {
+        "merged": "com.example.pynt.app-merged_res-33:/drawable_ic_baseline_add_location_24.xml.flat",
+        "source": "com.example.pynt.app-main-35:/drawable/ic_baseline_add_location_24.xml"
+    }
+]

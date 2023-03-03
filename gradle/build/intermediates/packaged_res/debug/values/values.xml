@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#3D55D6</color>
+    <color name="fade_gray">#F3F3F3</color>
+    <color name="primary">#4CAF50</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_300">#9575CD</color>
+    <color name="purple_500">#AA7FE8</color>
+    <color name="purple_700">#8E6AE1</color>
+    <color name="red">#FF0303</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FF9800</color>
+    <string name="app_name">Print Your Tee-Shirt</string>
+    <string name="default_web_client_id" translatable="false">656740199608-nmpuolm4np20arutaolrqt6c127on3ki.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">656740199608</string>
+    <string name="google_api_key" translatable="false">AIzaSyBw4vP2uKCHGCyVcATy3CM5zCoBPa56r5g</string>
+    <string name="google_app_id" translatable="false">1:656740199608:android:e57555bff70151f820184d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBw4vP2uKCHGCyVcATy3CM5zCoBPa56r5g</string>
+    <string name="google_storage_bucket" translatable="false">requerodb.appspot.com</string>
+    <string name="project_id" translatable="false">requerodb</string>
+    <style name="Theme.PYNT" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
